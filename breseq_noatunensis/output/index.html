@@ -1,0 +1,2231 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html>
+<head>
+<title>BRESEQ :: Mutation Predictions</title>
+<style type = "text/css">
+body {font-family: sans-serif; font-size: 11pt;}
+th {background-color: rgb(0,0,0); color: rgb(255,255,255);}
+table {background-color: rgb(1,0,0); color: rgb(0,0,0);}
+tr {background-color: rgb(255,255,255);}
+.mutation_in_codon {color:red; text-decoration : underline;}
+.snp_type_synonymous{color:green;}
+.snp_type_nonsynonymous{color:blue;}
+.snp_type_nonsense{color:red;}
+.mutation_header_row {background-color: rgb(0,130,0);}
+.read_alignment_header_row {background-color: rgb(255,0,0);}
+.missing_coverage_header_row {background-color: rgb(0,100,100);}
+.new_junction_header_row {background-color: rgb(0,0,155);}
+.copy_number_header_row {background-color: rgb(153,102,0);}
+.alternate_table_row_0 {background-color: rgb(255,255,255);}
+.alternate_table_row_1 {background-color: rgb(235,235,235);}
+.gray_table_row {background-color: rgb(230,230,245);}
+.polymorphism_table_row {background-color: rgb(160,255,160);}
+.highlight_table_row {background-color: rgb(192,255,255);}
+.reject_table_row {background-color: rgb(255,200,165);}
+.user_defined_table_row {background-color: rgb(255,255,0);}
+.information_table_row {background-color: rgb(200,255,255);}
+.junction_repeat {background-color: rgb(255,165,0)}
+.junction_gene {}
+.hidden { display: none; }
+.unhidden { display: block; }
+
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript">
+  function hideTog(divID) {
+    var item = document.getElementById(divID);
+    if (item) {
+      item.className=(item.className=='hidden')?'unhidden':'hidden';
+    }
+  }
+  function showTog(butID) {
+    var button = document.getElementById(butID);
+    if (button) {
+      button.value=(button.value=='Show')?'Hide':'Show';
+    }
+  }
+</script>
+
+</head>
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="3">
+<tr>
+<td><a href="http://barricklab.org/breseq"><img src="evidence/breseq_small.png" /></a></td>
+<td width="100%">
+<b><i>breseq</i></b>&nbsp;&nbsp;version 0.35.5&nbsp;&nbsp;revision 36c6a0c59f3e
+<br><a href="index.html">mutation predictions</a> | 
+<a href="marginal.html">marginal predictions</a> | 
+<a href="summary.html">summary statistics</a> | 
+<a href="output.gd">genome diff</a> | 
+<a href="log.txt">command line log</a>
+</td></tr></table>
+
+<p>
+<!--Mutation Predictions -->
+<p>
+<!--Output Html_Mutation_Table_String-->
+<table border="0" cellspacing="1" cellpadding="3">
+<tr><th colspan="6" align="left" class="mutation_header_row">Predicted mutations</th></tr><tr>
+<th>evidence</th>
+<th>position</th>
+<th>mutation</th>
+<th>annotation</th>
+<th>gene</th>
+<th width="100%">description</th>
+</tr>
+
+<!-- Item Lines -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/DEL_1.html">RA</a></td><!-- Evidence -->
+<td align="right">793,116</td><!-- Position -->
+<td align="center">(A)<sub>7&rarr;6</sub></td><!-- Cell Mutation -->
+<td align="center">intergenic&nbsp;(&#8209;396/&#8209;118)</td>
+<td align="center"><i>FSC774_RS03955</i>&nbsp;&larr;&nbsp;/&nbsp;&rarr;&nbsp;<i>FSC774_RS03960</i></td>
+<td align="left">IS30 family transposase/GntR family transcriptional regulator</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/DEL_2.html">RA</a></td><!-- Evidence -->
+<td align="right">793,137</td><!-- Position -->
+<td align="center">(T)<sub>7&rarr;6</sub></td><!-- Cell Mutation -->
+<td align="center">intergenic&nbsp;(&#8209;417/&#8209;97)</td>
+<td align="center"><i>FSC774_RS03955</i>&nbsp;&larr;&nbsp;/&nbsp;&rarr;&nbsp;<i>FSC774_RS03960</i></td>
+<td align="left">IS30 family transposase/GntR family transcriptional regulator</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/INS_3.html">RA</a></td><!-- Evidence -->
+<td align="right">812,530</td><!-- Position -->
+<td align="center">+AG</td><!-- Cell Mutation -->
+<td align="center">coding&nbsp;(1560/1578&nbsp;nt)</td>
+<td align="center"><i>FSC774_RS04080</i>&nbsp;&larr;</td>
+<td align="left">DUF1016 family protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/DEL_4.html">RA</a></td><!-- Evidence -->
+<td align="right">812,582</td><!-- Position -->
+<td align="center">(T)<sub>9&rarr;8</sub></td><!-- Cell Mutation -->
+<td align="center">coding&nbsp;(1508/1578&nbsp;nt)</td>
+<td align="center"><i>FSC774_RS04080</i>&nbsp;&larr;</td>
+<td align="left">DUF1016 family protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/DEL_5.html">RA</a></td><!-- Evidence -->
+<td align="right">812,592</td><!-- Position -->
+<td align="center">(T)<sub>8&rarr;7</sub></td><!-- Cell Mutation -->
+<td align="center">coding&nbsp;(1498/1578&nbsp;nt)</td>
+<td align="center"><i>FSC774_RS04080</i>&nbsp;&larr;</td>
+<td align="left">DUF1016 family protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/DEL_6.html">RA</a></td><!-- Evidence -->
+<td align="right">1,033,344</td><!-- Position -->
+<td align="center">(T)<sub>8&rarr;7</sub></td><!-- Cell Mutation -->
+<td align="center">intergenic&nbsp;(&#8209;287/&#8209;56)</td>
+<td align="center"><i>FSC774_RS05210</i>&nbsp;&larr;&nbsp;/&nbsp;&rarr;&nbsp;<i>FSC774_RS05215</i></td>
+<td align="left">IS256 family transposase/polyamine ABC transporter ATP&#8209;binding protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/DEL_7.html">RA</a></td><!-- Evidence -->
+<td align="right">1,162,925</td><!-- Position -->
+<td align="center">(T)<sub>7&rarr;6</sub></td><!-- Cell Mutation -->
+<td align="center">intergenic&nbsp;(&#8209;68/&#8209;82)</td>
+<td align="center"><i>FSC774_RS05860</i>&nbsp;&larr;&nbsp;/&nbsp;&rarr;&nbsp;<i>FSC774_RS05865</i></td>
+<td align="left">FUSC family protein/3&#8209;hydroxybutyrate dehydrogenase</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/DEL_8.html">RA</a></td><!-- Evidence -->
+<td align="right">1,225,403</td><!-- Position -->
+<td align="center">(A)<sub>7&rarr;6</sub></td><!-- Cell Mutation -->
+<td align="center">intergenic&nbsp;(&#8209;25/&#8209;190)</td>
+<td align="center"><i>FSC774_RS06145</i>&nbsp;&larr;&nbsp;/&nbsp;&rarr;&nbsp;<i>FSC774_RS06150</i></td>
+<td align="left">cyanophycinase/carbohydrate kinase family protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/DEL_9.html">RA</a></td><!-- Evidence -->
+<td align="right">1,352,127</td><!-- Position -->
+<td align="center">(T)<sub>7&rarr;6</sub></td><!-- Cell Mutation -->
+<td align="center">pseudogene&nbsp;(38/1657&nbsp;nt)</td>
+<td align="center"><i>ubiB</i>&nbsp;&rarr;</td>
+<td align="left">ubiquinone biosynthesis regulatory protein kinase UbiB</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/DEL_10.html">RA</a></td><!-- Evidence -->
+<td align="right">1,829,920</td><!-- Position -->
+<td align="center">(A)<sub>6&rarr;5</sub></td><!-- Cell Mutation -->
+<td align="center">intergenic&nbsp;(&#8209;98/+26)</td>
+<td align="center"><i>folD</i>&nbsp;&larr;&nbsp;/&nbsp;&larr;&nbsp;<i>lpxE</i></td>
+<td align="left">bifunctional methylenetetrahydrofolate dehydrogenase/methenyltetrahydrofolate cyclohydrolase FolD/lipid A 1&#8209;phosphatase LpxE</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/DEL_11.html">RA</a></td><!-- Evidence -->
+<td align="right">1,829,962</td><!-- Position -->
+<td align="center">(T)<sub>6&rarr;5</sub></td><!-- Cell Mutation -->
+<td align="center">coding&nbsp;(722/738&nbsp;nt)</td>
+<td align="center"><i>lpxE</i>&nbsp;&larr;</td>
+<td align="left">lipid A 1&#8209;phosphatase LpxE</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/DEL_12.html">RA</a></td><!-- Evidence -->
+<td align="right">1,870,058</td><!-- Position -->
+<td align="center">(T)<sub>5&rarr;4</sub></td><!-- Cell Mutation -->
+<td align="center">pseudogene&nbsp;(60/1497&nbsp;nt)</td>
+<td align="center"><i>FSC774_RS09490</i>&nbsp;&larr;</td>
+<td align="left">Rne/Rng family ribonuclease</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/DEL_13.html">RA</a></td><!-- Evidence -->
+<td align="right">1,870,134</td><!-- Position -->
+<td align="center">(T)<sub>6&rarr;5</sub></td><!-- Cell Mutation -->
+<td align="center">intergenic&nbsp;(&#8209;17/&#8211;)</td>
+<td align="center"><i>FSC774_RS09490</i>&nbsp;&larr;&nbsp;/&nbsp;<i>&#8211;</i></td>
+<td align="left">Rne/Rng family ribonuclease/&#8211;</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="center"><a href="evidence/DEL_14.html">RA</a></td><!-- Evidence -->
+<td align="right">1,870,224</td><!-- Position -->
+<td align="center">(T)<sub>5&rarr;4</sub></td><!-- Cell Mutation -->
+<td align="center">intergenic&nbsp;(&#8209;107/&#8211;)</td>
+<td align="center"><i>FSC774_RS09490</i>&nbsp;&larr;&nbsp;/&nbsp;<i>&#8211;</i></td>
+<td align="left">Rne/Rng family ribonuclease/&#8211;</td>
+</tr>
+<!-- End Table Row -->
+</table>
+<p>
+<table border="0" cellspacing="1" cellpadding="3" width="100%">
+<tr><th colspan="11" align="left" class="missing_coverage_header_row">Unassigned missing coverage evidence</th></tr>
+<tr><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>seq&nbsp;id</th>
+<th>start</th>
+<th>end</th>
+<th>size</th>
+<th>&larr;reads</th>
+<th>reads&rarr;</th>
+<th>gene</th>
+<th width="100%">description</th>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_105.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_105.html">*</a></td>
+<td><a href="evidence/MC_PLOT_105.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">7158&#8211;8133</td>
+<td align="right">8133</td>
+<td align="right">1&#8211;976</td>
+<td align="center">6&nbsp;[1]</td>
+<td align="center">[0]&nbsp;9</td>
+<td align="center"><i>[FSC774_RS00045]</i></td>
+<td align="left">[FSC774_RS00045]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_106.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_106.html">*</a></td>
+<td><a href="evidence/MC_PLOT_106.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">51588&#8211;52519</td>
+<td align="right">52519</td>
+<td align="right">1&#8211;932</td>
+<td align="center">9&nbsp;[0]</td>
+<td align="center">[0]&nbsp;3</td>
+<td align="center"><i>[FSC774_RS00270]</i></td>
+<td align="left">[FSC774_RS00270]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_107.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_107.html">*</a></td>
+<td><a href="evidence/MC_PLOT_107.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">53531&#8211;54489</td>
+<td align="right">54489</td>
+<td align="right">1&#8211;959</td>
+<td align="center">5&nbsp;[0]</td>
+<td align="center">[0]&nbsp;8</td>
+<td align="center"><i>[FSC774_RS00290]</i></td>
+<td align="left">[FSC774_RS00290]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_108.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_108.html">*</a></td>
+<td><a href="evidence/MC_PLOT_108.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">139230&#8211;140213</td>
+<td align="right">140213</td>
+<td align="right">1&#8211;984</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[1]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS00685]</i></td>
+<td align="left">[FSC774_RS00685]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_109.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_109.html">*</a></td>
+<td><a href="evidence/MC_PLOT_109.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">150899&#8211;151876</td>
+<td align="right">151876</td>
+<td align="right">1&#8211;978</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[0]&nbsp;3</td>
+<td align="center"><i>[FSC774_RS00755]&#8211;[FSC774_RS00760]</i></td>
+<td align="left">[FSC774_RS00755],[FSC774_RS00760]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_110.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_110.html">*</a></td>
+<td><a href="evidence/MC_PLOT_110.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">153908&#8211;154886</td>
+<td align="right">154886</td>
+<td align="right">1&#8211;979</td>
+<td align="center">6&nbsp;[0]</td>
+<td align="center">[0]&nbsp;4</td>
+<td align="center"><i>[FSC774_RS00780]&#8211;[FSC774_RS00785]</i></td>
+<td align="left">[FSC774_RS00780],[FSC774_RS00785]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_111.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_111.html">*</a></td>
+<td><a href="evidence/MC_PLOT_111.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">155557&#8211;156122</td>
+<td align="right">156122</td>
+<td align="right">1&#8211;566</td>
+<td align="center">6&nbsp;[0]</td>
+<td align="center">[1]&nbsp;2</td>
+<td align="center"><i>FSC774_RS00795</i></td>
+<td align="left">IS30 family transposase</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_112.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_112.html">*</a></td>
+<td><a href="evidence/MC_PLOT_112.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">175645&#8211;176303</td>
+<td align="right">176303</td>
+<td align="right">1&#8211;659</td>
+<td align="center">2&nbsp;[1]</td>
+<td align="center">[0]&nbsp;6</td>
+<td align="center"><i>FSC774_RS00870</i></td>
+<td align="left">IS30 family transposase</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_113.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_113.html">*</a></td>
+<td><a href="evidence/MC_PLOT_113.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">210631&#8211;211615</td>
+<td align="right">211615</td>
+<td align="right">1&#8211;985</td>
+<td align="center">2&nbsp;[1]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS01030]</i></td>
+<td align="left">[FSC774_RS01030]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_114.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_114.html">*</a></td>
+<td><a href="evidence/MC_PLOT_114.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">229084&#8211;230063</td>
+<td align="right">230063</td>
+<td align="right">1&#8211;980</td>
+<td align="center">15&nbsp;[0]</td>
+<td align="center">[0]&nbsp;3</td>
+<td align="center"><i>[FSC774_RS01115]</i></td>
+<td align="left">[FSC774_RS01115]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_115.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_115.html">*</a></td>
+<td><a href="evidence/MC_PLOT_115.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">237130&#8211;238104</td>
+<td align="right">238104</td>
+<td align="right">1&#8211;975</td>
+<td align="center">6&nbsp;[0]</td>
+<td align="center">[1]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS01165]</i></td>
+<td align="left">[FSC774_RS01165]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_116.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_116.html">*</a></td>
+<td><a href="evidence/MC_PLOT_116.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">249775&#8211;250753</td>
+<td align="right">250753</td>
+<td align="right">1&#8211;979</td>
+<td align="center">6&nbsp;[0]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS01245]</i></td>
+<td align="left">[FSC774_RS01245]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_117.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_117.html">*</a></td>
+<td><a href="evidence/MC_PLOT_117.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">279342&#8211;280316</td>
+<td align="right">280316</td>
+<td align="right">1&#8211;975</td>
+<td align="center">5&nbsp;[0]</td>
+<td align="center">[0]&nbsp;4</td>
+<td align="center"><i>[FSC774_RS01400]</i></td>
+<td align="left">[FSC774_RS01400]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_118.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_118.html">*</a></td>
+<td><a href="evidence/MC_PLOT_118.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">293477&#8211;294369</td>
+<td align="right">294369</td>
+<td align="right">1&#8211;893</td>
+<td align="center">6&nbsp;[1]</td>
+<td align="center">[0]&nbsp;6</td>
+<td align="center"><i>[FSC774_RS01465]</i></td>
+<td align="left">[FSC774_RS01465]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_119.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_119.html">*</a></td>
+<td><a href="evidence/MC_PLOT_119.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">304116&#8211;305093</td>
+<td align="right">305093</td>
+<td align="right">1&#8211;978</td>
+<td align="center">4&nbsp;[0]</td>
+<td align="center">[1]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS01515]</i></td>
+<td align="left">[FSC774_RS01515]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_120.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_120.html">*</a></td>
+<td><a href="evidence/MC_PLOT_120.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">332985&#8211;333960</td>
+<td align="right">333960</td>
+<td align="right">1&#8211;976</td>
+<td align="center">4&nbsp;[0]</td>
+<td align="center">[0]&nbsp;5</td>
+<td align="center"><i>[FSC774_RS01640]</i></td>
+<td align="left">[FSC774_RS01640]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_121.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_121.html">*</a></td>
+<td><a href="evidence/MC_PLOT_121.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">349677&#8211;350597</td>
+<td align="right">350597</td>
+<td align="right">1&#8211;921</td>
+<td align="center">3&nbsp;[0]</td>
+<td align="center">[0]&nbsp;6</td>
+<td align="center"><i>[FSC774_RS01715]</i></td>
+<td align="left">[FSC774_RS01715]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_122.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_122.html">*</a></td>
+<td><a href="evidence/MC_PLOT_122.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">369165&#8211;370149</td>
+<td align="right">370149</td>
+<td align="right">1&#8211;985</td>
+<td align="center">5&nbsp;[0]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS01810]</i></td>
+<td align="left">[FSC774_RS01810]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_123.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_123.html">*</a></td>
+<td><a href="evidence/MC_PLOT_123.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">378735&#8211;379712</td>
+<td align="right">379712</td>
+<td align="right">1&#8211;978</td>
+<td align="center">3&nbsp;[1]</td>
+<td align="center">[1]&nbsp;6</td>
+<td align="center"><i>[FSC774_RS01860]</i></td>
+<td align="left">[FSC774_RS01860]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_124.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_124.html">*</a></td>
+<td><a href="evidence/MC_PLOT_124.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">393535&#8211;394578</td>
+<td align="right">394578</td>
+<td align="right">1&#8211;1044</td>
+<td align="center">2&nbsp;[1]</td>
+<td align="center">[1]&nbsp;3</td>
+<td align="center"><i>[FSC774_RS01955]</i></td>
+<td align="left">[FSC774_RS01955]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_125.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_125.html">*</a></td>
+<td><a href="evidence/MC_PLOT_125.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">402686&#8211;403666</td>
+<td align="right">403666</td>
+<td align="right">1&#8211;981</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[0]&nbsp;3</td>
+<td align="center"><i>[FSC774_RS01980]</i></td>
+<td align="left">[FSC774_RS01980]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_126.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_126.html">*</a></td>
+<td><a href="evidence/MC_PLOT_126.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">416042&#8211;417562</td>
+<td align="right">417562</td>
+<td align="right">1&#8211;1521</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[0]&nbsp;6</td>
+<td align="center"><i>[FSC774_RS02065]&#8211;[FSC774_RS02070]</i></td>
+<td align="left">[FSC774_RS02065],[FSC774_RS02070]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_127.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_127.html">*</a></td>
+<td><a href="evidence/MC_PLOT_127.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">419528&#8211;424512</td>
+<td align="right">424512</td>
+<td align="right">1&#8211;4985</td>
+<td align="center">24&nbsp;[0]</td>
+<td align="center">[1]&nbsp;4</td>
+<td align="center"><i>[FSC774_RS02080]&#8211;FSC774_RS02090</i></td>
+<td align="left">[FSC774_RS02080],FSC774_RS02085,FSC774_RS02090</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_128.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_128.html">*</a></td>
+<td><a href="evidence/MC_PLOT_128.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">433631&#8211;434592</td>
+<td align="right">434592</td>
+<td align="right">1&#8211;962</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[0]&nbsp;3</td>
+<td align="center"><i>[FSC774_RS02130]</i></td>
+<td align="left">[FSC774_RS02130]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_129.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_129.html">*</a></td>
+<td><a href="evidence/MC_PLOT_129.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">436232&#8211;437214</td>
+<td align="right">437214</td>
+<td align="right">1&#8211;983</td>
+<td align="center">7&nbsp;[0]</td>
+<td align="center">[0]&nbsp;3</td>
+<td align="center"><i>[FSC774_RS02145]</i></td>
+<td align="left">[FSC774_RS02145]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_130.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_130.html">*</a></td>
+<td><a href="evidence/MC_PLOT_130.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">449008&#8211;449980</td>
+<td align="right">449980</td>
+<td align="right">1&#8211;973</td>
+<td align="center">6&nbsp;[0]</td>
+<td align="center">[0]&nbsp;4</td>
+<td align="center"><i>[FSC774_RS02215]</i></td>
+<td align="left">[FSC774_RS02215]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_131.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_131.html">*</a></td>
+<td><a href="evidence/MC_PLOT_131.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">464331&#8211;465313</td>
+<td align="right">465313</td>
+<td align="right">1&#8211;983</td>
+<td align="center">3&nbsp;[1]</td>
+<td align="center">[0]&nbsp;8</td>
+<td align="center"><i>[FSC774_RS02295]</i></td>
+<td align="left">[FSC774_RS02295]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_132.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_132.html">*</a></td>
+<td><a href="evidence/MC_PLOT_132.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">481309&#8211;482258</td>
+<td align="right">482258</td>
+<td align="right">1&#8211;950</td>
+<td align="center">5&nbsp;[0]</td>
+<td align="center">[1]&nbsp;6</td>
+<td align="center"><i>[FSC774_RS02380]&#8211;[FSC774_RS02385]</i></td>
+<td align="left">[FSC774_RS02380],[FSC774_RS02385]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_133.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_133.html">*</a></td>
+<td><a href="evidence/MC_PLOT_133.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">499430&#8211;500197</td>
+<td align="right">500197</td>
+<td align="right">1&#8211;768</td>
+<td align="center">9&nbsp;[0]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS02485]&#8211;[FSC774_RS02490]</i></td>
+<td align="left">[FSC774_RS02485],[FSC774_RS02490]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_134.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_134.html">*</a></td>
+<td><a href="evidence/MC_PLOT_134.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">501238&#8211;502224</td>
+<td align="right">502224</td>
+<td align="right">1&#8211;987</td>
+<td align="center">3&nbsp;[0]</td>
+<td align="center">[0]&nbsp;3</td>
+<td align="center"><i>[FSC774_RS02500]</i></td>
+<td align="left">[FSC774_RS02500]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_135.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_135.html">*</a></td>
+<td><a href="evidence/MC_PLOT_135.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">509478&#8211;510462</td>
+<td align="right">510462</td>
+<td align="right">1&#8211;985</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[0]&nbsp;4</td>
+<td align="center"><i>[FSC774_RS02545]</i></td>
+<td align="left">[FSC774_RS02545]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_136.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_136.html">*</a></td>
+<td><a href="evidence/MC_PLOT_136.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">526394&#8211;527372</td>
+<td align="right">527372</td>
+<td align="right">1&#8211;979</td>
+<td align="center">9&nbsp;[0]</td>
+<td align="center">[0]&nbsp;3</td>
+<td align="center"><i>[FSC774_RS02630]</i></td>
+<td align="left">[FSC774_RS02630]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_137.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_137.html">*</a></td>
+<td><a href="evidence/MC_PLOT_137.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">550546&#8211;551524</td>
+<td align="right">551524</td>
+<td align="right">1&#8211;979</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[0]&nbsp;4</td>
+<td align="center"><i>[FSC774_RS02755]</i></td>
+<td align="left">[FSC774_RS02755]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_138.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_138.html">*</a></td>
+<td><a href="evidence/MC_PLOT_138.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">559660&#8211;560637</td>
+<td align="right">560637</td>
+<td align="right">1&#8211;978</td>
+<td align="center">4&nbsp;[0]</td>
+<td align="center">[0]&nbsp;4</td>
+<td align="center"><i>[FSC774_RS02805]</i></td>
+<td align="left">[FSC774_RS02805]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_139.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_139.html">*</a></td>
+<td><a href="evidence/MC_PLOT_139.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">563441&#8211;563944</td>
+<td align="right">563944</td>
+<td align="right">1&#8211;504</td>
+<td align="center">3&nbsp;[1]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>FSC774_RS02815</i></td>
+<td align="left">IS30 family transposase</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_140.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_140.html">*</a></td>
+<td><a href="evidence/MC_PLOT_140.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">584853&#8211;585838</td>
+<td align="right">585838</td>
+<td align="right">1&#8211;986</td>
+<td align="center">5&nbsp;[1]</td>
+<td align="center">[0]&nbsp;4</td>
+<td align="center"><i>[FSC774_RS02930]</i></td>
+<td align="left">[FSC774_RS02930]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_141.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_141.html">*</a></td>
+<td><a href="evidence/MC_PLOT_141.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">593340&#8211;594313</td>
+<td align="right">594313</td>
+<td align="right">1&#8211;974</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS02970]</i></td>
+<td align="left">[FSC774_RS02970]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_142.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_142.html">*</a></td>
+<td><a href="evidence/MC_PLOT_142.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">618032&#8211;619008</td>
+<td align="right">619008</td>
+<td align="right">1&#8211;977</td>
+<td align="center">7&nbsp;[0]</td>
+<td align="center">[1]&nbsp;4</td>
+<td align="center"><i>[FSC774_RS03080]</i></td>
+<td align="left">[FSC774_RS03080]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_143.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_143.html">*</a></td>
+<td><a href="evidence/MC_PLOT_143.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">628654&#8211;629633</td>
+<td align="right">629633</td>
+<td align="right">1&#8211;980</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS03120]</i></td>
+<td align="left">[FSC774_RS03120]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_144.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_144.html">*</a></td>
+<td><a href="evidence/MC_PLOT_144.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">670957&#8211;671929</td>
+<td align="right">671929</td>
+<td align="right">1&#8211;973</td>
+<td align="center">3&nbsp;[0]</td>
+<td align="center">[0]&nbsp;8</td>
+<td align="center"><i>[FSC774_RS03295]</i></td>
+<td align="left">[FSC774_RS03295]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_145.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_145.html">*</a></td>
+<td><a href="evidence/MC_PLOT_145.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">734241&#8211;735225</td>
+<td align="right">735225</td>
+<td align="right">1&#8211;985</td>
+<td align="center">2&nbsp;[1]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS03640]</i></td>
+<td align="left">[FSC774_RS03640]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_146.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_146.html">*</a></td>
+<td><a href="evidence/MC_PLOT_146.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">751727&#8211;752709</td>
+<td align="right">752709</td>
+<td align="right">1&#8211;983</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[1]&nbsp;3</td>
+<td align="center"><i>[FSC774_RS03740]</i></td>
+<td align="left">[FSC774_RS03740]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_147.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_147.html">*</a></td>
+<td><a href="evidence/MC_PLOT_147.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">756369&#8211;757350</td>
+<td align="right">757350</td>
+<td align="right">1&#8211;982</td>
+<td align="center">7&nbsp;[1]</td>
+<td align="center">[1]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS03770]</i></td>
+<td align="left">[FSC774_RS03770]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_148.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_148.html">*</a></td>
+<td><a href="evidence/MC_PLOT_148.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">758962&#8211;759946</td>
+<td align="right">759946</td>
+<td align="right">1&#8211;985</td>
+<td align="center">4&nbsp;[1]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS03785]</i></td>
+<td align="left">[FSC774_RS03785]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_149.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_149.html">*</a></td>
+<td><a href="evidence/MC_PLOT_149.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">770679&#8211;771543</td>
+<td align="right">771543</td>
+<td align="right">1&#8211;865</td>
+<td align="center">5&nbsp;[0]</td>
+<td align="center">[0]&nbsp;3</td>
+<td align="center"><i>FSC774_RS03865</i></td>
+<td align="left">IS30 family transposase</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_150.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_150.html">*</a></td>
+<td><a href="evidence/MC_PLOT_150.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">778141&#8211;779128</td>
+<td align="right">779128</td>
+<td align="right">1&#8211;988</td>
+<td align="center">5&nbsp;[1]</td>
+<td align="center">[0]&nbsp;7</td>
+<td align="center"><i>[FSC774_RS03905]</i></td>
+<td align="left">[FSC774_RS03905]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_151.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_151.html">*</a></td>
+<td><a href="evidence/MC_PLOT_151.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">791809&#8211;792786</td>
+<td align="right">792786</td>
+<td align="right">1&#8211;978</td>
+<td align="center">3&nbsp;[1]</td>
+<td align="center">[0]&nbsp;3</td>
+<td align="center"><i>[FSC774_RS03950]&#8211;[FSC774_RS03955]</i></td>
+<td align="left">[FSC774_RS03950],[FSC774_RS03955]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_152.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_152.html">*</a></td>
+<td><a href="evidence/MC_PLOT_152.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">811712&#8211;812392</td>
+<td align="right">812392</td>
+<td align="right">1&#8211;681</td>
+<td align="center">9&nbsp;[0]</td>
+<td align="center">[1]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS04075]</i></td>
+<td align="left">[FSC774_RS04075]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_153.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_153.html">*</a></td>
+<td><a href="evidence/MC_PLOT_153.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">829958&#8211;830640</td>
+<td align="right">830640</td>
+<td align="right">1&#8211;683</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[1]&nbsp;3</td>
+<td align="center"><i>FSC774_RS04160</i></td>
+<td align="left">IS30 family transposase</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_154.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_154.html">*</a></td>
+<td><a href="evidence/MC_PLOT_154.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">837785&#8211;838767</td>
+<td align="right">838767</td>
+<td align="right">1&#8211;983</td>
+<td align="center">7&nbsp;[0]</td>
+<td align="center">[1]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS04190]</i></td>
+<td align="left">[FSC774_RS04190]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_155.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_155.html">*</a></td>
+<td><a href="evidence/MC_PLOT_155.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">841165&#8211;842615</td>
+<td align="right">842752&#8211;842728</td>
+<td align="right">114&#8211;1588</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[1]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS04215]&#8211;[FSC774_RS04225]</i></td>
+<td align="left">[FSC774_RS04215],FSC774_RS04220,[FSC774_RS04225]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_156.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_156.html">*</a></td>
+<td><a href="evidence/MC_PLOT_156.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">842801&#8211;843276</td>
+<td align="right">844194&#8211;843396</td>
+<td align="right">121&#8211;1394</td>
+<td align="center">3&nbsp;[0]</td>
+<td align="center">[0]&nbsp;4</td>
+<td align="center"><i>[FSC774_RS04225]&#8211;[FSC774_RS04230]</i></td>
+<td align="left">[FSC774_RS04225],[FSC774_RS04230]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_157.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_157.html">*</a></td>
+<td><a href="evidence/MC_PLOT_157.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">887363&#8211;887911</td>
+<td align="right">887911</td>
+<td align="right">1&#8211;549</td>
+<td align="center">3&nbsp;[0]</td>
+<td align="center">[1]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS04455]</i></td>
+<td align="left">[FSC774_RS04455]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_158.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_158.html">*</a></td>
+<td><a href="evidence/MC_PLOT_158.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">910968&#8211;911946</td>
+<td align="right">911946</td>
+<td align="right">1&#8211;979</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[0]&nbsp;5</td>
+<td align="center"><i>[FSC774_RS04560]</i></td>
+<td align="left">[FSC774_RS04560]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_159.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_159.html">*</a></td>
+<td><a href="evidence/MC_PLOT_159.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">942117&#8211;943255</td>
+<td align="right">943255</td>
+<td align="right">1&#8211;1139</td>
+<td align="center">9&nbsp;[0]</td>
+<td align="center">[1]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS04705]&#8211;[FSC774_RS04710]</i></td>
+<td align="left">[FSC774_RS04705],[FSC774_RS04710]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_160.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_160.html">*</a></td>
+<td><a href="evidence/MC_PLOT_160.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">949551&#8211;949554</td>
+<td align="right">949596&#8211;949578</td>
+<td align="right">25&#8211;46</td>
+<td align="center">2&nbsp;[1]</td>
+<td align="center">[1]&nbsp;2</td>
+<td align="center"><i>FSC774_RS04745</i></td>
+<td align="left">hypothetical protein</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_161.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_161.html">*</a></td>
+<td><a href="evidence/MC_PLOT_161.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">949864&#8211;951125</td>
+<td align="right">951544&#8211;951316</td>
+<td align="right">192&#8211;1681</td>
+<td align="center">2&nbsp;[1]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS04745]&#8211;[FSC774_RS04755]</i></td>
+<td align="left">[FSC774_RS04745],FSC774_RS04750,[FSC774_RS04755]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_162.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_162.html">*</a></td>
+<td><a href="evidence/MC_PLOT_162.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">961949&#8211;963727</td>
+<td align="right">963727</td>
+<td align="right">1&#8211;1779</td>
+<td align="center">5&nbsp;[0]</td>
+<td align="center">[1]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS04815]&#8211;[FSC774_RS04830]</i></td>
+<td align="left">[FSC774_RS04815],FSC774_RS04820,FSC774_RS04825,[FSC774_RS04830]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_163.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_163.html">*</a></td>
+<td><a href="evidence/MC_PLOT_163.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">974121&#8211;975095</td>
+<td align="right">975095</td>
+<td align="right">1&#8211;975</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS04895]</i></td>
+<td align="left">[FSC774_RS04895]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_164.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_164.html">*</a></td>
+<td><a href="evidence/MC_PLOT_164.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">983930&#8211;984909</td>
+<td align="right">984909</td>
+<td align="right">1&#8211;980</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[0]&nbsp;8</td>
+<td align="center"><i>[FSC774_RS04935]</i></td>
+<td align="left">[FSC774_RS04935]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_165.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_165.html">*</a></td>
+<td><a href="evidence/MC_PLOT_165.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">991177&#8211;991911</td>
+<td align="right">991911</td>
+<td align="right">1&#8211;735</td>
+<td align="center">9&nbsp;[0]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS04980]</i></td>
+<td align="left">[FSC774_RS04980]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_166.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_166.html">*</a></td>
+<td><a href="evidence/MC_PLOT_166.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1002772&#8211;1003762</td>
+<td align="right">1003762</td>
+<td align="right">1&#8211;991</td>
+<td align="center">3&nbsp;[1]</td>
+<td align="center">[1]&nbsp;6</td>
+<td align="center"><i>[FSC774_RS05045]</i></td>
+<td align="left">[FSC774_RS05045]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_167.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_167.html">*</a></td>
+<td><a href="evidence/MC_PLOT_167.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1012760&#8211;1013742</td>
+<td align="right">1013742</td>
+<td align="right">1&#8211;983</td>
+<td align="center">3&nbsp;[0]</td>
+<td align="center">[0]&nbsp;3</td>
+<td align="center"><i>[FSC774_RS05095]</i></td>
+<td align="left">[FSC774_RS05095]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_168.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_168.html">*</a></td>
+<td><a href="evidence/MC_PLOT_168.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1025415&#8211;1026402</td>
+<td align="right">1026402</td>
+<td align="right">1&#8211;988</td>
+<td align="center">5&nbsp;[1]</td>
+<td align="center">[0]&nbsp;6</td>
+<td align="center"><i>[FSC774_RS05170]</i></td>
+<td align="left">[FSC774_RS05170]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_169.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_169.html">*</a></td>
+<td><a href="evidence/MC_PLOT_169.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1029826&#8211;1030812</td>
+<td align="right">1030812</td>
+<td align="right">1&#8211;987</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[0]&nbsp;7</td>
+<td align="center"><i>[FSC774_RS05195]&#8211;[FSC774_RS05200]</i></td>
+<td align="left">[FSC774_RS05195],[FSC774_RS05200]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_170.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_170.html">*</a></td>
+<td><a href="evidence/MC_PLOT_170.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1071055&#8211;1072036</td>
+<td align="right">1072036</td>
+<td align="right">1&#8211;982</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[0]&nbsp;7</td>
+<td align="center"><i>[FSC774_RS05390]</i></td>
+<td align="left">[FSC774_RS05390]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_171.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_171.html">*</a></td>
+<td><a href="evidence/MC_PLOT_171.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1085121&#8211;1086092</td>
+<td align="right">1086092</td>
+<td align="right">1&#8211;972</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS05465]</i></td>
+<td align="left">[FSC774_RS05465]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_172.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_172.html">*</a></td>
+<td><a href="evidence/MC_PLOT_172.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1089621&#8211;1090568</td>
+<td align="right">1090568</td>
+<td align="right">1&#8211;948</td>
+<td align="center">4&nbsp;[0]</td>
+<td align="center">[0]&nbsp;4</td>
+<td align="center"><i>[FSC774_RS05500]</i></td>
+<td align="left">[FSC774_RS05500]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_173.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_173.html">*</a></td>
+<td><a href="evidence/MC_PLOT_173.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1097088&#8211;1098070</td>
+<td align="right">1098070</td>
+<td align="right">1&#8211;983</td>
+<td align="center">3&nbsp;[0]</td>
+<td align="center">[0]&nbsp;3</td>
+<td align="center"><i>[FSC774_RS05540]</i></td>
+<td align="left">[FSC774_RS05540]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_174.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_174.html">*</a></td>
+<td><a href="evidence/MC_PLOT_174.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1121726&#8211;1122320</td>
+<td align="right">1122320</td>
+<td align="right">1&#8211;595</td>
+<td align="center">8&nbsp;[0]</td>
+<td align="center">[1]&nbsp;2</td>
+<td align="center"><i>FSC774_RS05655</i></td>
+<td align="left">IS30 family transposase</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_175.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_175.html">*</a></td>
+<td><a href="evidence/MC_PLOT_175.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1136878&#8211;1137854</td>
+<td align="right">1137854</td>
+<td align="right">1&#8211;977</td>
+<td align="center">4&nbsp;[1]</td>
+<td align="center">[0]&nbsp;3</td>
+<td align="center"><i>[FSC774_RS05720]</i></td>
+<td align="left">[FSC774_RS05720]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_176.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_176.html">*</a></td>
+<td><a href="evidence/MC_PLOT_176.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1139024&#8211;1140002</td>
+<td align="right">1140002</td>
+<td align="right">1&#8211;979</td>
+<td align="center">6&nbsp;[0]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS05730]</i></td>
+<td align="left">[FSC774_RS05730]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_177.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_177.html">*</a></td>
+<td><a href="evidence/MC_PLOT_177.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1153104&#8211;1154090</td>
+<td align="right">1154090</td>
+<td align="right">1&#8211;987</td>
+<td align="center">2&nbsp;[1]</td>
+<td align="center">[1]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS05810]</i></td>
+<td align="left">[FSC774_RS05810]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_178.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_178.html">*</a></td>
+<td><a href="evidence/MC_PLOT_178.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1155426&#8211;1156409</td>
+<td align="right">1156409</td>
+<td align="right">1&#8211;984</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS05820]</i></td>
+<td align="left">[FSC774_RS05820]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_179.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_179.html">*</a></td>
+<td><a href="evidence/MC_PLOT_179.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1159566&#8211;1160537</td>
+<td align="right">1160537</td>
+<td align="right">1&#8211;972</td>
+<td align="center">6&nbsp;[1]</td>
+<td align="center">[0]&nbsp;3</td>
+<td align="center"><i>[FSC774_RS05845]</i></td>
+<td align="left">[FSC774_RS05845]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_180.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_180.html">*</a></td>
+<td><a href="evidence/MC_PLOT_180.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1166459&#8211;1167444</td>
+<td align="right">1167444</td>
+<td align="right">1&#8211;986</td>
+<td align="center">3&nbsp;[0]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS05885]</i></td>
+<td align="left">[FSC774_RS05885]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_181.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_181.html">*</a></td>
+<td><a href="evidence/MC_PLOT_181.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1186804&#8211;1187782</td>
+<td align="right">1187782</td>
+<td align="right">1&#8211;979</td>
+<td align="center">2&nbsp;[1]</td>
+<td align="center">[0]&nbsp;7</td>
+<td align="center"><i>[FSC774_RS05965]</i></td>
+<td align="left">[FSC774_RS05965]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_182.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_182.html">*</a></td>
+<td><a href="evidence/MC_PLOT_182.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1208114&#8211;1209090</td>
+<td align="right">1209090</td>
+<td align="right">1&#8211;977</td>
+<td align="center">4&nbsp;[0]</td>
+<td align="center">[1]&nbsp;4</td>
+<td align="center"><i>[FSC774_RS06055]</i></td>
+<td align="left">[FSC774_RS06055]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_183.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_183.html">*</a></td>
+<td><a href="evidence/MC_PLOT_183.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1238750&#8211;1239733</td>
+<td align="right">1239733</td>
+<td align="right">1&#8211;984</td>
+<td align="center">3&nbsp;[1]</td>
+<td align="center">[1]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS06215]</i></td>
+<td align="left">[FSC774_RS06215]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_184.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_184.html">*</a></td>
+<td><a href="evidence/MC_PLOT_184.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1262857&#8211;1263844</td>
+<td align="right">1263844</td>
+<td align="right">1&#8211;988</td>
+<td align="center">5&nbsp;[1]</td>
+<td align="center">[0]&nbsp;4</td>
+<td align="center"><i>[FSC774_RS06345]</i></td>
+<td align="left">[FSC774_RS06345]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_185.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_185.html">*</a></td>
+<td><a href="evidence/MC_PLOT_185.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1267624&#8211;1268566</td>
+<td align="right">1268566</td>
+<td align="right">1&#8211;943</td>
+<td align="center">289&nbsp;[0]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS06365]</i></td>
+<td align="left">[FSC774_RS06365]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_186.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_186.html">*</a></td>
+<td><a href="evidence/MC_PLOT_186.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1271431&#8211;1272407</td>
+<td align="right">1272407</td>
+<td align="right">1&#8211;977</td>
+<td align="center">12&nbsp;[0]</td>
+<td align="center">[0]&nbsp;3</td>
+<td align="center"><i>[FSC774_RS06390]</i></td>
+<td align="left">[FSC774_RS06390]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_187.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_187.html">*</a></td>
+<td><a href="evidence/MC_PLOT_187.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1292491&#8211;1293471</td>
+<td align="right">1293471</td>
+<td align="right">1&#8211;981</td>
+<td align="center">11&nbsp;[0]</td>
+<td align="center">[0]&nbsp;5</td>
+<td align="center"><i>[FSC774_RS06500]</i></td>
+<td align="left">[FSC774_RS06500]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_188.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_188.html">*</a></td>
+<td><a href="evidence/MC_PLOT_188.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1337424&#8211;1338117</td>
+<td align="right">1338453&#8211;1338134</td>
+<td align="right">18&#8211;1030</td>
+<td align="center">3&nbsp;[0]</td>
+<td align="center">[1]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS06755]&#8211;[FSC774_RS06770]</i></td>
+<td align="left">[FSC774_RS06755],FSC774_RS06760,rrf,[FSC774_RS06770]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_189.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_189.html">*</a></td>
+<td><a href="evidence/MC_PLOT_189.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1366825&#8211;1367812</td>
+<td align="right">1367812</td>
+<td align="right">1&#8211;988</td>
+<td align="center">3&nbsp;[1]</td>
+<td align="center">[1]&nbsp;4</td>
+<td align="center"><i>[FSC774_RS06900]</i></td>
+<td align="left">[FSC774_RS06900]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_190.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_190.html">*</a></td>
+<td><a href="evidence/MC_PLOT_190.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1374184&#8211;1375068</td>
+<td align="right">1375068</td>
+<td align="right">1&#8211;885</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[0]&nbsp;7</td>
+<td align="center"><i>[FSC774_RS06930]</i></td>
+<td align="left">[FSC774_RS06930]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_191.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_191.html">*</a></td>
+<td><a href="evidence/MC_PLOT_191.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1376269&#8211;1377249</td>
+<td align="right">1377249</td>
+<td align="right">1&#8211;981</td>
+<td align="center">5&nbsp;[0]</td>
+<td align="center">[0]&nbsp;4</td>
+<td align="center"><i>[FSC774_RS06940]</i></td>
+<td align="left">[FSC774_RS06940]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_192.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_192.html">*</a></td>
+<td><a href="evidence/MC_PLOT_192.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1399859&#8211;1400814</td>
+<td align="right">1400814</td>
+<td align="right">1&#8211;956</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS07060]</i></td>
+<td align="left">[FSC774_RS07060]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_193.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_193.html">*</a></td>
+<td><a href="evidence/MC_PLOT_193.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1450948&#8211;1452466</td>
+<td align="right">1453020&#8211;1452507</td>
+<td align="right">42&#8211;2073</td>
+<td align="center">5&nbsp;[0]</td>
+<td align="center">[0]&nbsp;4</td>
+<td align="center"><i>[FSC774_RS07295]&#8211;[FSC774_RS07305]</i></td>
+<td align="left">[FSC774_RS07295],FSC774_RS07300,[FSC774_RS07305]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_194.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_194.html">*</a></td>
+<td><a href="evidence/MC_PLOT_194.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1454190</td>
+<td align="right">1455556&#8211;1454201</td>
+<td align="right">12&#8211;1367</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS07310]&#8211;[FSC774_RS07315]</i></td>
+<td align="left">[FSC774_RS07310],[FSC774_RS07315]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_195.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_195.html">*</a></td>
+<td><a href="evidence/MC_PLOT_195.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1463163&#8211;1464143</td>
+<td align="right">1464143</td>
+<td align="right">1&#8211;981</td>
+<td align="center">5&nbsp;[1]</td>
+<td align="center">[1]&nbsp;5</td>
+<td align="center"><i>[FSC774_RS07355]</i></td>
+<td align="left">[FSC774_RS07355]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_196.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_196.html">*</a></td>
+<td><a href="evidence/MC_PLOT_196.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1470689&#8211;1471665</td>
+<td align="right">1471665</td>
+<td align="right">1&#8211;977</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[0]&nbsp;3</td>
+<td align="center"><i>[FSC774_RS07400]</i></td>
+<td align="left">[FSC774_RS07400]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_197.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_197.html">*</a></td>
+<td><a href="evidence/MC_PLOT_197.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1497893&#8211;1498874</td>
+<td align="right">1498874</td>
+<td align="right">1&#8211;982</td>
+<td align="center">3&nbsp;[1]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS07525]</i></td>
+<td align="left">[FSC774_RS07525]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_198.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_198.html">*</a></td>
+<td><a href="evidence/MC_PLOT_198.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1501987&#8211;1502968</td>
+<td align="right">1502968</td>
+<td align="right">1&#8211;982</td>
+<td align="center">3&nbsp;[0]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS07545]</i></td>
+<td align="left">[FSC774_RS07545]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_199.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_199.html">*</a></td>
+<td><a href="evidence/MC_PLOT_199.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1527281&#8211;1528259</td>
+<td align="right">1528259</td>
+<td align="right">1&#8211;979</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[0]&nbsp;20</td>
+<td align="center"><i>[FSC774_RS07760]</i></td>
+<td align="left">[FSC774_RS07760]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_200.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_200.html">*</a></td>
+<td><a href="evidence/MC_PLOT_200.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1531261&#8211;1532237</td>
+<td align="right">1532237</td>
+<td align="right">1&#8211;977</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[0]&nbsp;4</td>
+<td align="center"><i>[FSC774_RS07785]</i></td>
+<td align="left">[FSC774_RS07785]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_201.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_201.html">*</a></td>
+<td><a href="evidence/MC_PLOT_201.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1535902&#8211;1536880</td>
+<td align="right">1536880</td>
+<td align="right">1&#8211;979</td>
+<td align="center">5&nbsp;[1]</td>
+<td align="center">[0]&nbsp;3</td>
+<td align="center"><i>[FSC774_RS07800]</i></td>
+<td align="left">[FSC774_RS07800]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_202.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_202.html">*</a></td>
+<td><a href="evidence/MC_PLOT_202.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1547081&#8211;1548042</td>
+<td align="right">1548042</td>
+<td align="right">1&#8211;962</td>
+<td align="center">4&nbsp;[0]</td>
+<td align="center">[0]&nbsp;4</td>
+<td align="center"><i>[FSC774_RS07860]</i></td>
+<td align="left">[FSC774_RS07860]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_203.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_203.html">*</a></td>
+<td><a href="evidence/MC_PLOT_203.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1604542&#8211;1605409</td>
+<td align="right">1605409</td>
+<td align="right">1&#8211;868</td>
+<td align="center">5&nbsp;[1]</td>
+<td align="center">[1]&nbsp;2</td>
+<td align="center"><i>FSC774_RS08125</i></td>
+<td align="left">IS30 family transposase</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_204.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_204.html">*</a></td>
+<td><a href="evidence/MC_PLOT_204.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1612411&#8211;1613012</td>
+<td align="right">1613012</td>
+<td align="right">1&#8211;602</td>
+<td align="center">2&nbsp;[1]</td>
+<td align="center">[0]&nbsp;8</td>
+<td align="center"><i>[FSC774_RS08150]</i></td>
+<td align="left">[FSC774_RS08150]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_205.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_205.html">*</a></td>
+<td><a href="evidence/MC_PLOT_205.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1614981&#8211;1615956</td>
+<td align="right">1615956</td>
+<td align="right">1&#8211;976</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[0]&nbsp;4</td>
+<td align="center"><i>[FSC774_RS08165]</i></td>
+<td align="left">[FSC774_RS08165]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_206.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_206.html">*</a></td>
+<td><a href="evidence/MC_PLOT_206.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1634715&#8211;1635695</td>
+<td align="right">1635695</td>
+<td align="right">1&#8211;981</td>
+<td align="center">5&nbsp;[0]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS08250]</i></td>
+<td align="left">[FSC774_RS08250]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_207.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_207.html">*</a></td>
+<td><a href="evidence/MC_PLOT_207.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1671019&#8211;1671998</td>
+<td align="right">1671998</td>
+<td align="right">1&#8211;980</td>
+<td align="center">4&nbsp;[0]</td>
+<td align="center">[0]&nbsp;3</td>
+<td align="center"><i>[FSC774_RS08445]</i></td>
+<td align="left">[FSC774_RS08445]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_208.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_208.html">*</a></td>
+<td><a href="evidence/MC_PLOT_208.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1689633&#8211;1690719</td>
+<td align="right">1691137&#8211;1690721</td>
+<td align="right">3&#8211;1505</td>
+<td align="center">3&nbsp;[0]</td>
+<td align="center">[1]&nbsp;6</td>
+<td align="center"><i>[FSC774_RS08530]</i></td>
+<td align="left">[FSC774_RS08530]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_209.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_209.html">*</a></td>
+<td><a href="evidence/MC_PLOT_209.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1693896&#8211;1694879</td>
+<td align="right">1694879</td>
+<td align="right">1&#8211;984</td>
+<td align="center">3&nbsp;[0]</td>
+<td align="center">[1]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS08545]</i></td>
+<td align="left">[FSC774_RS08545]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_210.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_210.html">*</a></td>
+<td><a href="evidence/MC_PLOT_210.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1704072&#8211;1705054</td>
+<td align="right">1705054</td>
+<td align="right">1&#8211;983</td>
+<td align="center">3&nbsp;[1]</td>
+<td align="center">[1]&nbsp;6</td>
+<td align="center"><i>[FSC774_RS08590]&#8211;[FSC774_RS08595]</i></td>
+<td align="left">[FSC774_RS08590],[FSC774_RS08595]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_211.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_211.html">*</a></td>
+<td><a href="evidence/MC_PLOT_211.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1714001</td>
+<td align="right">1714002</td>
+<td align="right">2</td>
+<td align="center">16&nbsp;[0]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>FSC774_RS08640/radA</i></td>
+<td align="left">PilZ domain&#8209;containing protein/DNA repair protein RadA</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_212.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_212.html">*</a></td>
+<td><a href="evidence/MC_PLOT_212.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1717768&#8211;1718311</td>
+<td align="right">1718886&#8211;1718313</td>
+<td align="right">3&#8211;1119</td>
+<td align="center">2&nbsp;[1]</td>
+<td align="center">[1]&nbsp;5</td>
+<td align="center"><i>[FSC774_RS08660]&#8211;[FSC774_RS08665]</i></td>
+<td align="left">[FSC774_RS08660],[FSC774_RS08665]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_213.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_213.html">*</a></td>
+<td><a href="evidence/MC_PLOT_213.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1725315&#8211;1726806</td>
+<td align="right">1731308&#8211;1726853</td>
+<td align="right">48&#8211;5994</td>
+<td align="center">4&nbsp;[0]</td>
+<td align="center">[1]&nbsp;2</td>
+<td align="center"><i>[htpX]&#8211;FSC774_RS08735</i></td>
+<td align="left">[htpX],FSC774_RS08700,rph,FSC774_RS08710,FSC774_RS08715,FSC774_RS08720,FSC774_RS08725,FSC774_RS08730,FSC774_RS08735</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_214.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_214.html">*</a></td>
+<td><a href="evidence/MC_PLOT_214.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1757566&#8211;1758626</td>
+<td align="right">1758626</td>
+<td align="right">1&#8211;1061</td>
+<td align="center">4&nbsp;[0]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>FSC774_RS08895&#8211;[FSC774_RS08900]</i></td>
+<td align="left">FSC774_RS08895,[FSC774_RS08900]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_215.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_215.html">*</a></td>
+<td><a href="evidence/MC_PLOT_215.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1761298&#8211;1761317</td>
+<td align="right">1761340&#8211;1761338</td>
+<td align="right">22&#8211;43</td>
+<td align="center">2&nbsp;[1]</td>
+<td align="center">[1]&nbsp;2</td>
+<td align="center"><i>groL/FSC774_RS08915</i></td>
+<td align="left">chaperonin GroEL/amino acid permease</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_216.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_216.html">*</a></td>
+<td><a href="evidence/MC_PLOT_216.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1761373&#8211;1761393</td>
+<td align="right">1761561&#8211;1761410</td>
+<td align="right">18&#8211;189</td>
+<td align="center">2&nbsp;[1]</td>
+<td align="center">[1]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS08915]</i></td>
+<td align="left">[FSC774_RS08915]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_217.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_217.html">*</a></td>
+<td><a href="evidence/MC_PLOT_217.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1761632</td>
+<td align="right">1761650&#8211;1761643</td>
+<td align="right">12&#8211;19</td>
+<td align="center">2&nbsp;[1]</td>
+<td align="center">[1]&nbsp;2</td>
+<td align="center"><i>FSC774_RS08915</i></td>
+<td align="left">amino acid permease</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_218.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_218.html">*</a></td>
+<td><a href="evidence/MC_PLOT_218.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1763922&#8211;1764711</td>
+<td align="right">1764711</td>
+<td align="right">1&#8211;790</td>
+<td align="center">2&nbsp;[1]</td>
+<td align="center">[1]&nbsp;4</td>
+<td align="center"><i>FSC774_RS08925</i></td>
+<td align="left">IS30 family transposase</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_219.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_219.html">*</a></td>
+<td><a href="evidence/MC_PLOT_219.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1800416&#8211;1801393</td>
+<td align="right">1801393</td>
+<td align="right">1&#8211;978</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[1]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS09100]</i></td>
+<td align="left">[FSC774_RS09100]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_220.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_220.html">*</a></td>
+<td><a href="evidence/MC_PLOT_220.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1807933&#8211;1808912</td>
+<td align="right">1808912</td>
+<td align="right">1&#8211;980</td>
+<td align="center">2&nbsp;[0]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS09155]</i></td>
+<td align="left">[FSC774_RS09155]</td>
+</tr>
+<tr>
+<td><a href="evidence/MC_SIDE_1_221.html">*</a></td>
+<td><a href="evidence/MC_SIDE_2_221.html">*</a></td>
+<td><a href="evidence/MC_PLOT_221.html">&divide;</a></td>
+<td>NZ_CP053850</td>
+<td align="right">1836205&#8211;1837179</td>
+<td align="right">1837179</td>
+<td align="right">1&#8211;975</td>
+<td align="center">2&nbsp;[1]</td>
+<td align="center">[0]&nbsp;2</td>
+<td align="center"><i>[FSC774_RS09290]</i></td>
+<td align="left">[FSC774_RS09290]</td>
+</tr>
+</table>
+<p>
+<table border="0" cellspacing="1" cellpadding="3">
+<tr><th colspan="12" align="left" class="new_junction_header_row">Unassigned new junction evidence</th></tr>
+<!-- Header Lines for New Junction -->
+<tr>
+<th colspan="2">&nbsp;</th>
+<th>seq&nbsp;id</th>
+<th>position</th>
+<th>reads&nbsp;(cov)</th>
+<th>reads&nbsp;(cov)</th>
+<th>score</th>
+<th>skew</th>
+<th>freq</th>
+<th>annotation</th>
+<th>gene</th>
+<th width="100%">product</th>
+</tr>
+
+<!-- Item Lines for New Junction -->
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_224.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_224.html">?</a></td>
+<td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">=&nbsp;6992</td><td align="center" class="junction_gene">131 (0.480)</td><td rowspan="2" align="center">1480 (6.300)</td>
+<td rowspan="2" align="center">5/64</td>
+<td rowspan="2" align="center">2.6</td>
+<td rowspan="2" align="center">89.6%</td>
+<td align="center" class="junction_gene">pseudogene&nbsp;(133/327&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>FSC774_RS00040</i></td>
+<td class="junction_gene">MFS transporter</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_224.html">?</a></td><td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">1267587&nbsp;=</td>
+<td align="center" class="junction_gene">231 (0.980)</td><td align="center" class="junction_gene">pseudogene&nbsp;(910/943&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>FSC774_RS06365</i></td>
+<td class="junction_gene">IS30 family transposase</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_225.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_225.html">?</a></td>
+<td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">=&nbsp;10152</td><td align="center" class="junction_gene">534 (1.970)</td><td rowspan="2" align="center">2501 (10.640)<br>+GAACT</td>
+<td rowspan="2" align="center">8/64</td>
+<td rowspan="2" align="center">2.2</td>
+<td rowspan="2" align="center">90.2%</td>
+<td align="center" class="junction_gene">coding&nbsp;(337/1350&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>gdhA</i></td>
+<td class="junction_gene">NADP&#8209;specific glutamate dehydrogenase</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_225.html">?</a></td><td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">=&nbsp;1850504</td>
+<td align="center" class="junction_gene">96 (0.350)</td><td align="center" class="junction_gene">intergenic&nbsp;(&#8209;39/&#8209;186)</td>
+<td align="center" class="junction_gene"><i>FSC774_RS09370/FSC774_RS09375</i></td>
+<td class="junction_gene">MFS transporter/ferritin</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_228.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_228.html">?</a></td>
+<td rowspan="1" class="junction_repeat">NZ_CP053850</td>
+<td align="center" class="junction_repeat">=&nbsp;46729</td><td align="center" class="junction_repeat">NA (NA)</td><td rowspan="2" align="center">95 (0.380)</td>
+<td rowspan="2" align="center">14/68</td>
+<td rowspan="2" align="center">1.7</td>
+<td rowspan="2" align="center">65.7%</td>
+<td align="center" class="junction_repeat">pseudogene&nbsp;(205/778&nbsp;nt)</td>
+<td align="center" class="junction_repeat"><i>FSC774_RS00245</i></td>
+<td class="junction_repeat">SDR family NAD(P)&#8209;dependent oxidoreductase</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_228.html">?</a></td><td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">804617&nbsp;=</td>
+<td align="center" class="junction_gene">54 (0.200)</td><td align="center" class="junction_gene">coding&nbsp;(37/801&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>ttcA</i></td>
+<td class="junction_gene">tRNA 2&#8209;thiocytidine(32) synthetase TtcA</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_229.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_229.html">?</a></td>
+<td rowspan="1" class="junction_repeat">NZ_CP053850</td>
+<td align="center" class="junction_repeat">48206&nbsp;=</td><td align="center" class="junction_repeat">NA (NA)</td><td rowspan="2" align="center">9 (0.040)</td>
+<td rowspan="2" align="center">5/66</td>
+<td rowspan="2" align="center">2.6</td>
+<td rowspan="2" align="center">NA</td>
+<td align="center" class="junction_repeat">coding&nbsp;(450/1350&nbsp;nt)</td>
+<td align="center" class="junction_repeat"><i>FSC774_RS00250</i></td>
+<td class="junction_repeat">amino acid permease</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_229.html">?</a></td><td rowspan="1" class="junction_repeat">NZ_CP053850</td>
+<td align="center" class="junction_repeat">48253&nbsp;=</td>
+<td align="center" class="junction_repeat">NA (NA)</td><td align="center" class="junction_repeat">coding&nbsp;(403/1350&nbsp;nt)</td>
+<td align="center" class="junction_repeat"><i>FSC774_RS00250</i></td>
+<td class="junction_repeat">amino acid permease</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_230.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_230.html">?</a></td>
+<td rowspan="1" class="junction_repeat">NZ_CP053850</td>
+<td align="center" class="junction_repeat">48353&nbsp;=</td><td align="center" class="junction_repeat">NA (NA)</td><td rowspan="2" align="center">4 (0.020)</td>
+<td rowspan="2" align="center">4/64</td>
+<td rowspan="2" align="center">2.8</td>
+<td rowspan="2" align="center">NA</td>
+<td align="center" class="junction_repeat">coding&nbsp;(303/1350&nbsp;nt)</td>
+<td align="center" class="junction_repeat"><i>FSC774_RS00250</i></td>
+<td class="junction_repeat">amino acid permease</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_230.html">?</a></td><td rowspan="1" class="junction_repeat">NZ_CP053850</td>
+<td align="center" class="junction_repeat">48380&nbsp;=</td>
+<td align="center" class="junction_repeat">NA (NA)</td><td align="center" class="junction_repeat">coding&nbsp;(276/1350&nbsp;nt)</td>
+<td align="center" class="junction_repeat"><i>FSC774_RS00250</i></td>
+<td class="junction_repeat">amino acid permease</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_234.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_234.html">?</a></td>
+<td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">=&nbsp;115067</td><td align="center" class="junction_gene">118 (0.430)</td><td rowspan="2" align="center">75 (0.300)<br>+GGG</td>
+<td rowspan="2" align="center">14/68</td>
+<td rowspan="2" align="center">1.7</td>
+<td rowspan="2" align="center">44.5%</td>
+<td align="center" class="junction_gene">coding&nbsp;(378/381&nbsp;nt)<br>coding&nbsp;(22/369&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>sdhC<br>sdhD</i></td>
+<td class="junction_gene">succinate dehydrogenase, cytochrome b556 subunit<br>succinate dehydrogenase, hydrophobic membrane anchor protein</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_234.html">?</a></td><td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">=&nbsp;745404</td>
+<td align="center" class="junction_gene">86 (0.320)</td><td align="center" class="junction_gene">coding&nbsp;(233/882&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>FSC774_RS03705</i></td>
+<td class="junction_gene">tyrosine&#8209;type recombinase/integrase</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_240.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_240.html">?</a></td>
+<td rowspan="1" class="junction_repeat">NZ_CP053850</td>
+<td align="center" class="junction_repeat">186376&nbsp;=</td><td align="center" class="junction_repeat">NA (NA)</td><td rowspan="2" align="center">48 (0.210)</td>
+<td rowspan="2" align="center">5/62</td>
+<td rowspan="2" align="center">2.6</td>
+<td rowspan="2" align="center">NA</td>
+<td align="center" class="junction_repeat">pseudogene&nbsp;(364/1261&nbsp;nt)</td>
+<td align="center" class="junction_repeat"><i>FSC774_RS00905</i></td>
+<td class="junction_repeat">IS256 family transposase</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_240.html">?</a></td><td rowspan="1" class="junction_repeat">NZ_CP053850</td>
+<td align="center" class="junction_repeat">186403&nbsp;=</td>
+<td align="center" class="junction_repeat">NA (NA)</td><td align="center" class="junction_repeat">pseudogene&nbsp;(337/1261&nbsp;nt)</td>
+<td align="center" class="junction_repeat"><i>FSC774_RS00905</i></td>
+<td class="junction_repeat">IS256 family transposase</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_246.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_246.html">?</a></td>
+<td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">252020&nbsp;=</td><td align="center" class="junction_gene">77 (0.280)</td><td rowspan="2" align="center">96 (0.450)</td>
+<td rowspan="2" align="center">6/58</td>
+<td rowspan="2" align="center">2.3</td>
+<td rowspan="2" align="center">55.8%</td>
+<td align="center" class="junction_gene">coding&nbsp;(126/846&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>psd</i></td>
+<td class="junction_gene">phosphatidylserine decarboxylase</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_246.html">?</a></td><td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">1596650&nbsp;=</td>
+<td align="center" class="junction_gene">92 (0.430)</td><td align="center" class="junction_gene">coding&nbsp;(252/1245&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>FSC774_RS08095</i></td>
+<td class="junction_gene">phosphopentomutase</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_251.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_251.html">?</a></td>
+<td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">=&nbsp;303406</td><td align="center" class="junction_gene">487 (1.790)</td><td rowspan="2" align="center">87 (0.410)</td>
+<td rowspan="2" align="center">8/58</td>
+<td rowspan="2" align="center">2.1</td>
+<td rowspan="2" align="center">31.3%</td>
+<td align="center" class="junction_gene">intergenic&nbsp;(+137/+160)</td>
+<td align="center" class="junction_gene"><i>recN/FSC774_RS01510</i></td>
+<td class="junction_gene">DNA repair protein RecN/prepilin&#8209;type N&#8209;terminal cleavage/methylation domain&#8209;containing protein</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_251.html">?</a></td><td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">1713990&nbsp;=</td>
+<td align="center" class="junction_gene">0 (0.000)</td><td align="center" class="junction_gene">intergenic&nbsp;(+16/&#8209;19)</td>
+<td align="center" class="junction_gene"><i>FSC774_RS08640/radA</i></td>
+<td class="junction_gene">PilZ domain&#8209;containing protein/DNA repair protein RadA</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_255.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_255.html">?</a></td>
+<td rowspan="1" class="junction_repeat">NZ_CP053850</td>
+<td align="center" class="junction_repeat">419470&nbsp;=</td><td align="center" class="junction_repeat">NA (NA)</td><td rowspan="2" align="center">4 (0.020)</td>
+<td rowspan="2" align="center">3/62</td>
+<td rowspan="2" align="center">3.0</td>
+<td rowspan="2" align="center">100%</td>
+<td align="center" class="junction_repeat">pseudogene&nbsp;(484/3118&nbsp;nt)</td>
+<td align="center" class="junction_repeat"><i>FSC774_RS02080</i></td>
+<td class="junction_repeat">efflux RND transporter permease subunit</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_255.html">?</a></td><td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">419485&nbsp;=</td>
+<td align="center" class="junction_gene">0 (0.000)</td><td align="center" class="junction_gene">pseudogene&nbsp;(499/3118&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>FSC774_RS02080</i></td>
+<td class="junction_gene">efflux RND transporter permease subunit</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_258.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_258.html">?</a></td>
+<td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">=&nbsp;474012</td><td align="center" class="junction_gene">165 (0.610)</td><td rowspan="2" align="center">281 (1.320)<br>+TCTTATGT</td>
+<td rowspan="2" align="center">3/58</td>
+<td rowspan="2" align="center">2.9</td>
+<td rowspan="2" align="center">72.1%</td>
+<td align="center" class="junction_gene">coding&nbsp;(411/942&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>secF</i></td>
+<td class="junction_gene">protein translocase subunit SecF</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_258.html">?</a></td><td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">1126448&nbsp;=</td>
+<td align="center" class="junction_gene">112 (0.410)</td><td align="center" class="junction_gene">coding&nbsp;(194/864&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>nadC</i></td>
+<td class="junction_gene">carboxylating nicotinate&#8209;nucleotide diphosphorylase</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_260.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_260.html">?</a></td>
+<td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">=&nbsp;529508</td><td align="center" class="junction_gene">317 (1.170)</td><td rowspan="2" align="center">84 (0.380)</td>
+<td rowspan="2" align="center">7/60</td>
+<td rowspan="2" align="center">2.2</td>
+<td rowspan="2" align="center">27.7%</td>
+<td align="center" class="junction_gene">coding&nbsp;(391/1857&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>dxs</i></td>
+<td class="junction_gene">1&#8209;deoxy&#8209;D&#8209;xylulose&#8209;5&#8209;phosphate synthase</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_260.html">?</a></td><td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">=&nbsp;1364392</td>
+<td align="center" class="junction_gene">182 (0.830)</td><td align="center" class="junction_gene">coding&nbsp;(1301/1812&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>FSC774_RS06890</i></td>
+<td class="junction_gene">oxaloacetate&#8209;decarboxylating malate dehydrogenase</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_263.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_263.html">?</a></td>
+<td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">648546&nbsp;=</td><td align="center" class="junction_gene">298 (1.100)</td><td rowspan="2" align="center">39 (0.140)</td>
+<td rowspan="2" align="center">12/74</td>
+<td rowspan="2" align="center">2.0</td>
+<td rowspan="2" align="center">20.6%</td>
+<td align="center" class="junction_gene">coding&nbsp;(667/1005&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>FSC774_RS03205</i></td>
+<td class="junction_gene">glycosyltransferase</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_263.html">?</a></td><td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">893801&nbsp;=</td>
+<td align="center" class="junction_gene">3 (0.010)</td><td align="center" class="junction_gene">intergenic&nbsp;(&#8209;167/&#8209;211)</td>
+<td align="center" class="junction_gene"><i>FSC774_RS04485/FSC774_RS04490</i></td>
+<td class="junction_gene">16S ribosomal RNA/pathogenicity determinant protein PdpA1</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_264.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_264.html">?</a></td>
+<td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">660734&nbsp;=</td><td align="center" class="junction_gene">87 (0.320)</td><td rowspan="2" align="center">43 (0.160)</td>
+<td rowspan="2" align="center">7/74</td>
+<td rowspan="2" align="center">2.5</td>
+<td rowspan="2" align="center">33.1%</td>
+<td align="center" class="junction_gene">intergenic&nbsp;(&#8209;265/+42)</td>
+<td align="center" class="junction_gene"><i>FSC774_RS03265/FSC774_RS03270</i></td>
+<td class="junction_gene">copper chaperone PCu(A)C/Tn3 family transposase</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_264.html">?</a></td><td rowspan="1" class="junction_repeat">NZ_CP053850</td>
+<td align="center" class="junction_repeat">=&nbsp;686781</td>
+<td align="center" class="junction_repeat">NA (NA)</td><td align="center" class="junction_repeat">coding&nbsp;(1102/1275&nbsp;nt)</td>
+<td align="center" class="junction_repeat"><i>FSC774_RS03385</i></td>
+<td class="junction_repeat">IS256 family transposase</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_266.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_266.html">?</a></td>
+<td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">751092&nbsp;=</td><td align="center" class="junction_gene">179 (0.660)</td><td rowspan="2" align="center">78 (0.310)</td>
+<td rowspan="2" align="center">9/68</td>
+<td rowspan="2" align="center">2.1</td>
+<td rowspan="2" align="center">32.1%</td>
+<td align="center" class="junction_gene">intergenic&nbsp;(+37/&#8209;44)</td>
+<td align="center" class="junction_gene"><i>FSC774_RS03725/FSC774_RS03730</i></td>
+<td class="junction_gene">acetyl&#8209;CoA carboxylase carboxyltransferase subunit alpha/pilus assembly protein</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_266.html">?</a></td><td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">=&nbsp;1616749</td>
+<td align="center" class="junction_gene">165 (0.660)</td><td align="center" class="junction_gene">coding&nbsp;(1388/1875&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>FSC774_RS08170</i></td>
+<td class="junction_gene">RNB domain&#8209;containing ribonuclease</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_268.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_268.html">?</a></td>
+<td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">764206&nbsp;=</td><td align="center" class="junction_gene">130 (0.480)</td><td rowspan="2" align="center">193 (0.730)<br>+C</td>
+<td rowspan="2" align="center">14/72</td>
+<td rowspan="2" align="center">1.8</td>
+<td rowspan="2" align="center">34.6%</td>
+<td align="center" class="junction_gene">coding&nbsp;(43/465&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>pgsC</i></td>
+<td class="junction_gene">poly&#8209;gamma&#8209;glutamate biosynthesis protein PgsC</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_268.html">?</a></td><td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">1575586&nbsp;=</td>
+<td align="center" class="junction_gene">619 (2.280)</td><td align="center" class="junction_gene">coding&nbsp;(556/765&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>FSC774_RS08010</i></td>
+<td class="junction_gene">MIP family channel protein</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_270.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_270.html">?</a></td>
+<td rowspan="1" class="junction_repeat">NZ_CP053850</td>
+<td align="center" class="junction_repeat">=&nbsp;889705</td><td align="center" class="junction_repeat">NA (NA)</td><td rowspan="2" align="center">9 (0.040)</td>
+<td rowspan="2" align="center">6/66</td>
+<td rowspan="2" align="center">2.5</td>
+<td rowspan="2" align="center">100%</td>
+<td align="center" class="junction_repeat">noncoding&nbsp;(2095/2888&nbsp;nt)</td>
+<td align="center" class="junction_repeat"><i>FSC774_RS04470</i></td>
+<td class="junction_repeat">23S ribosomal RNA</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_270.html">?</a></td><td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">=&nbsp;889747</td>
+<td align="center" class="junction_gene">0 (0.000)</td><td align="center" class="junction_gene">noncoding&nbsp;(2053/2888&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>FSC774_RS04470</i></td>
+<td class="junction_gene">23S ribosomal RNA</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_273.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_273.html">?</a></td>
+<td rowspan="1" class="junction_repeat">NZ_CP053850</td>
+<td align="center" class="junction_repeat">955068&nbsp;=</td><td align="center" class="junction_repeat">NA (NA)</td><td rowspan="2" align="center">5 (0.020)</td>
+<td rowspan="2" align="center">4/66</td>
+<td rowspan="2" align="center">2.8</td>
+<td rowspan="2" align="center">100%</td>
+<td align="center" class="junction_repeat">coding&nbsp;(67/885&nbsp;nt)</td>
+<td align="center" class="junction_repeat"><i>FSC774_RS04770</i></td>
+<td class="junction_repeat">LysR family transcriptional regulator</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_273.html">?</a></td><td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">955094&nbsp;=</td>
+<td align="center" class="junction_gene">0 (0.000)</td><td align="center" class="junction_gene">coding&nbsp;(93/885&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>FSC774_RS04770</i></td>
+<td class="junction_gene">LysR family transcriptional regulator</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_278.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_278.html">?</a></td>
+<td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">1143727&nbsp;=</td><td align="center" class="junction_gene">158 (0.580)</td><td rowspan="2" align="center">30 (0.120)</td>
+<td rowspan="2" align="center">8/70</td>
+<td rowspan="2" align="center">2.3</td>
+<td rowspan="2" align="center">20.2%</td>
+<td align="center" class="junction_gene">pseudogene&nbsp;(496/602&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>FSC774_RS05750</i></td>
+<td class="junction_gene">DJ&#8209;1/PfpI family protein</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_278.html">?</a></td><td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">=&nbsp;1166100</td>
+<td align="center" class="junction_gene">88 (0.340)</td><td align="center" class="junction_gene">pseudogene&nbsp;(354/642&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>FSC774_RS05880</i></td>
+<td class="junction_gene">NO&#8209;inducible flavohemoprotein</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_292.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_292.html">?</a></td>
+<td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">=&nbsp;1375427</td><td align="center" class="junction_gene">190 (0.700)</td><td rowspan="2" align="center">7344 (33.330)<br>+AAATCTT</td>
+<td rowspan="2" align="center">4/60</td>
+<td rowspan="2" align="center">2.7</td>
+<td rowspan="2" align="center">98.4%</td>
+<td align="center" class="junction_gene">intergenic&nbsp;(+326/&#8209;301)</td>
+<td align="center" class="junction_gene"><i>FSC774_RS06930/FSC774_RS06935</i></td>
+<td class="junction_gene">IS30 family transposase/prepilin&#8209;type N&#8209;terminal cleavage/methylation domain&#8209;containing protein</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_292.html">?</a></td><td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">1393343&nbsp;=</td>
+<td align="center" class="junction_gene">105 (0.390)</td><td align="center" class="junction_gene">pseudogene&nbsp;(6/672&nbsp;nt)<br>pseudogene&nbsp;(1/462&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>FSC774_RS07020<br>FSC774_RS07025</i></td>
+<td class="junction_gene">MFS transporter<br>IS30 family transposase</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_298.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_298.html">?</a></td>
+<td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">1492491&nbsp;=</td><td align="center" class="junction_gene">401 (1.480)</td><td rowspan="2" align="center">121 (0.480)</td>
+<td rowspan="2" align="center">11/68</td>
+<td rowspan="2" align="center">2.0</td>
+<td rowspan="2" align="center">21.6%</td>
+<td align="center" class="junction_gene">coding&nbsp;(124/894&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>FSC774_RS07490</i></td>
+<td class="junction_gene">D&#8209;alanine&#8209;&#8209;D&#8209;alanine ligase</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_298.html">?</a></td><td rowspan="1" class="junction_gene">NZ_CP053850</td>
+<td align="center" class="junction_gene">1555518&nbsp;=</td>
+<td align="center" class="junction_gene">512 (2.050)</td><td align="center" class="junction_gene">coding&nbsp;(878/1161&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>FSC774_RS07910</i></td>
+<td class="junction_gene">methionine adenosyltransferase</td>
+</tr>
+</table>
+</body></html>
